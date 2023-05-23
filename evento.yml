@@ -55,6 +55,7 @@ carreras:
         duracion: 30:00 
         minimo_declarar: 2:10 
         maximo_declarar: 4:00 
+        tiempo_penalizacion_radar: 10
         #bandera_cuadros: %%% # "33:19.924"
 
 
