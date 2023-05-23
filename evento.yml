@@ -6,10 +6,10 @@ carreras:
     Clasica:
         nombre_completo: Clásica
         tipo_carrera: PROMEDIOS
-        hora_inicio: 11:55 # 9:00
-        duracion: 30:00 # 30:00
-        minimo_declarar: 2:20 # 2:30
-        maximo_declarar: 4:00 # 2:30
+        hora_inicio: 11:55 
+        duracion: 30:00 
+        minimo_declarar: 2:20 
+        maximo_declarar: 4:00 
         #bandera_cuadros: %%% # "33:19.924"
         #auto_seguridad:
         #    - inicio: "10:19.924"
@@ -19,18 +19,18 @@ carreras:
     ClasiGP:
         nombre_completo: Clasificación Grand Prix
         tipo_carrera: CLASIGP
-        hora_inicio: 12:35 # 9:40
+        hora_inicio: 12:35
         estructura:
-            - cantidad_vueltas: 5
-              tiempo_vuelta: 2:10 # 1:35
+            - cantidad_vueltas: 4
+              tiempo_vuelta: 2:10 
 
     LeMans:
         nombre_completo: Le Mans AAAS
         tipo_carrera: PROMEDIOS
-        hora_inicio: 12:55 # 10:05
-        duracion: 30:00 # 30:00
-        minimo_declarar: 2:20 # 2:20
-        maximo_declarar: 4:00 # 4:00
+        hora_inicio: 12:55 
+        duracion: 30:00 #
+        minimo_declarar: 2:20 
+        maximo_declarar: 4:00 
         #bandera_cuadros: %%% # "33:19.924"
 
 
@@ -51,20 +51,20 @@ carreras:
     Nurbu:
         nombre_completo: Nurburgring
         tipo_carrera: PROMEDIOS
-        hora_inicio: 14:35 # 10:45
-        duracion: 30:00 # 30:00
-        minimo_declarar: 2:10 # 1:50
-        maximo_declarar: 4:00 # 2:30
+        hora_inicio: 14:35 
+        duracion: 30:00 
+        minimo_declarar: 2:10 
+        maximo_declarar: 4:00 
         #bandera_cuadros: %%% # "33:19.924"
 
 
     SuperSport:
         nombre_completo: SuperSport
         tipo_carrera: PROMEDIOS
-        hora_inicio: 15:15 # 14:15
-        duracion: 30:00 # 30:00
-        minimo_declarar: 2:00 # 2:00
-        maximo_declarar: 2:30 # 2:30
+        hora_inicio: 15:15 
+        duracion: 30:00 
+        minimo_declarar: 2:00 
+        maximo_declarar: 2:30 
         #bandera_cuadros: %%% # "33:19.924"
         # penalizacion_caidas: 2
 
