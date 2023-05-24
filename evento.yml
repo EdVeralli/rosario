@@ -6,15 +6,14 @@ carreras:
     Clasica:
         nombre_completo: Clásica
         tipo_carrera: PROMEDIOS
-        hora_inicio: 11:55 
-        duracion: 30:00 
-        minimo_declarar: 2:20 
-        maximo_declarar: 4:00 
+        hora_inicio: 11:55
+        duracion: 30:00
+        minimo_declarar: 2:20
+        maximo_declarar: 4:00
         #bandera_cuadros: %%% # "33:19.924"
         #auto_seguridad:
         #    - inicio: "10:19.924"
         #    - fin: "33:19.924"
-
 
     ClasiGP:
         nombre_completo: Clasificación Grand Prix
@@ -22,17 +21,16 @@ carreras:
         hora_inicio: 12:35
         estructura:
             - cantidad_vueltas: 4
-              tiempo_vuelta: 2:10 
+              tiempo_vuelta: 2:10
 
     LeMans:
         nombre_completo: Le Mans AAAS
         tipo_carrera: PROMEDIOS
-        hora_inicio: 12:55 
+        hora_inicio: 12:55
         duracion: 30:00 #
-        minimo_declarar: 2:20 
-        maximo_declarar: 4:00 
+        minimo_declarar: 2:20
+        maximo_declarar: 4:00
         #bandera_cuadros: %%% # "33:19.924"
-
 
     GP:
         nombre_completo: Grand Prix 100 Kilómetros
@@ -40,41 +38,40 @@ carreras:
         hora_inicio: 13:35 # 11:25
         penalizacion_caidas: 2
         estructura:
-            cantidad_vueltas: 20
-            tiempo_vuelta: 2:10
+            - cantidad_vueltas: 20
+              tiempo_vuelta: 2:10
         mostrar_mejores_tiempos: true
         # Tiempo total teórico  58'10"
 
     Nurbu:
         nombre_completo: Nurburgring
         tipo_carrera: PROMEDIOS
-        hora_inicio: 14:35 
-        duracion: 30:00 
-        minimo_declarar: 2:10 
-        maximo_declarar: 4:00 
+        hora_inicio: 14:35
+        duracion: 30:00
+        minimo_declarar: 2:10
+        maximo_declarar: 4:00
         tiempo_penalizacion_radar: 10
         #bandera_cuadros: %%% # "33:19.924"
-
 
     SuperSport:
         nombre_completo: SuperSport
         tipo_carrera: PROMEDIOS
-        hora_inicio: 15:15 
-        duracion: 30:00 
-        minimo_declarar: 2:00 
-        maximo_declarar: 2:30 
+        hora_inicio: 15:15
+        duracion: 30:00
+        minimo_declarar: 2:00
+        maximo_declarar: 2:30
         #bandera_cuadros: %%% # "33:19.924"
         # penalizacion_caidas: 2
 
     Flechas:
-       nombre_completo: Flechas de Plata
-       tipo_carrera: PROMEDIOS
-       hora_inicio: 15:45
-       duracion: 30:00
-       minimo_declarar: 2:20
-       maximo_declarar: 4:00
-       velocidad_radar: 28
-       #bandera_cuadros: %%% # "33:19.924"
+        nombre_completo: Flechas de Plata
+        tipo_carrera: PROMEDIOS
+        hora_inicio: 15:45
+        duracion: 30:00
+        minimo_declarar: 2:20
+        maximo_declarar: 4:00
+        velocidad_radar: 28
+        #bandera_cuadros: %%% # "33:19.924"
 
     # Otros parametros:
     # incluir_recien_abandonados: true
