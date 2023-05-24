@@ -32,10 +32,20 @@ carreras:
         maximo_declarar: 4:00
         #bandera_cuadros: %%% # "33:19.924"
 
+    Flechas:
+        nombre_completo: Flechas de Plata
+        tipo_carrera: PROMEDIOS
+        hora_inicio: 12:55
+        duracion: 30:00
+        minimo_declarar: 2:20
+        maximo_declarar: 4:00
+        velocidad_radar: 28
+        #bandera_cuadros: %%% # "33:19.924"
+
     GP:
         nombre_completo: Grand Prix 100 Kilómetros
         tipo_carrera: GP
-        hora_inicio: 13:35 # 11:25
+        hora_inicio: 13:35
         penalizacion_caidas: 2
         estructura:
             - cantidad_vueltas: 20
@@ -63,15 +73,6 @@ carreras:
         #bandera_cuadros: %%% # "33:19.924"
         # penalizacion_caidas: 2
 
-    Flechas:
-        nombre_completo: Flechas de Plata
-        tipo_carrera: PROMEDIOS
-        hora_inicio: 15:45
-        duracion: 30:00
-        minimo_declarar: 2:20
-        maximo_declarar: 4:00
-        velocidad_radar: 28
-        #bandera_cuadros: %%% # "33:19.924"
 
     # Otros parametros:
     # incluir_recien_abandonados: true
