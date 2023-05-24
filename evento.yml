@@ -72,7 +72,9 @@ carreras:
         maximo_declarar: 2:30
         #bandera_cuadros: %%% # "33:19.924"
         # penalizacion_caidas: 2
-
+        #modificacion_vueltas:
+        #    - cantidad: 99
+        #      segundos: 30
 
     # Otros parametros:
     # incluir_recien_abandonados: true
@@ -88,3 +90,5 @@ carreras:
     ## Para las planillas del autodromo:
     ## Para modificar la velocidad de radar que se muestra en la planilla:
     # velocidad_radar: 28
+
+
