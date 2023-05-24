@@ -1,6 +1,6 @@
 evento:
     nombre: Premio 65 Aniversario - AAAS
-    fecha: 27/05/2022
+    fecha: 27/05/2023
 
 carreras:
     Clasica:
@@ -38,13 +38,10 @@ carreras:
         nombre_completo: Grand Prix 100 Kilómetros
         tipo_carrera: GP
         hora_inicio: 13:35 # 11:25
-        # penalizacion_caidas: 2
+        penalizacion_caidas: 2
         estructura:
             cantidad_vueltas: 20
             tiempo_vuelta: 2:10
-            #- neutralizacion: 4:00
-            #- cantidad_vueltas: 10
-            #  tiempo_vuelta: 2:15
         mostrar_mejores_tiempos: true
         # Tiempo total teórico  58'10"
 
