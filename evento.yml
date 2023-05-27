@@ -10,7 +10,7 @@ carreras:
         duracion: 30:00
         minimo_declarar: 2:30
         maximo_declarar: 4:00
-        #bandera_cuadros: %%% # "33:19.924"
+        bandera_cuadros: "30:10.940"
         #auto_seguridad:
         #    - inicio: "10:19.924"
         #    - fin: "33:19.924"
@@ -30,7 +30,7 @@ carreras:
         duracion: 30:00 #
         minimo_declarar: 2:30
         maximo_declarar: 4:00
-        #bandera_cuadros: %%% # "33:19.924"
+        bandera_cuadros: "30:07.218"
 
     Flechas:
         nombre_completo: Flechas de Plata
@@ -39,8 +39,8 @@ carreras:
         duracion: 30:00
         minimo_declarar: 2:30
         maximo_declarar: 4:00
-        velocidad_radar: 28
-        #bandera_cuadros: %%% # "33:19.924"
+        #velocidad_radar: 28
+        bandera_cuadros: "30:07.218"
 
     GP:
         nombre_completo: Grand Prix 100 Kilómetros
@@ -48,7 +48,7 @@ carreras:
         hora_inicio: 13:35
         penalizacion_caidas: 2
         estructura:
-            - cantidad_vueltas: 20
+            - cantidad_vueltas: 18
               tiempo_vuelta: 2:25
         mostrar_mejores_tiempos: true
         # Tiempo total teórico  58'10"
@@ -60,8 +60,8 @@ carreras:
         duracion: 30:00
         minimo_declarar: 2:30
         maximo_declarar: 3:00
-        tiempo_penalizacion_radar: 10
-        #bandera_cuadros: %%% # "33:19.924"
+        penalizacion_caidas: 5
+        bandera_cuadros: "30:02.739"
 
     SuperSport:
         nombre_completo: SuperSport
@@ -70,7 +70,7 @@ carreras:
         duracion: 30:00
         minimo_declarar: 2:20
         maximo_declarar: 2:30
-        #bandera_cuadros: %%% # "33:19.924"
+        bandera_cuadros: "30:22.049"
         # penalizacion_caidas: 2
         #modificacion_vueltas:
         #    - cantidad: 99
@@ -90,5 +90,3 @@ carreras:
     ## Para las planillas del autodromo:
     ## Para modificar la velocidad de radar que se muestra en la planilla:
     # velocidad_radar: 28
-
-
