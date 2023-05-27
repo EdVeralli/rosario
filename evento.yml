@@ -8,7 +8,7 @@ carreras:
         tipo_carrera: PROMEDIOS
         hora_inicio: 11:55
         duracion: 30:00
-        minimo_declarar: 2:20
+        minimo_declarar: 2:30
         maximo_declarar: 4:00
         #bandera_cuadros: %%% # "33:19.924"
         #auto_seguridad:
@@ -21,14 +21,14 @@ carreras:
         hora_inicio: 12:35
         estructura:
             - cantidad_vueltas: 4
-              tiempo_vuelta: 2:10
+              tiempo_vuelta: 2:25
 
     LeMans:
         nombre_completo: Le Mans AAAS
         tipo_carrera: PROMEDIOS
         hora_inicio: 12:55
         duracion: 30:00 #
-        minimo_declarar: 2:20
+        minimo_declarar: 2:30
         maximo_declarar: 4:00
         #bandera_cuadros: %%% # "33:19.924"
 
@@ -37,7 +37,7 @@ carreras:
         tipo_carrera: PROMEDIOS
         hora_inicio: 12:55
         duracion: 30:00
-        minimo_declarar: 2:20
+        minimo_declarar: 2:30
         maximo_declarar: 4:00
         velocidad_radar: 28
         #bandera_cuadros: %%% # "33:19.924"
@@ -49,7 +49,7 @@ carreras:
         penalizacion_caidas: 2
         estructura:
             - cantidad_vueltas: 20
-              tiempo_vuelta: 2:10
+              tiempo_vuelta: 2:25
         mostrar_mejores_tiempos: true
         # Tiempo total teórico  58'10"
 
@@ -68,7 +68,7 @@ carreras:
         tipo_carrera: PROMEDIOS
         hora_inicio: 15:15
         duracion: 30:00
-        minimo_declarar: 2:00
+        minimo_declarar: 2:20
         maximo_declarar: 2:30
         #bandera_cuadros: %%% # "33:19.924"
         # penalizacion_caidas: 2
